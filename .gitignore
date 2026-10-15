@@ -1,0 +1,44 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+
+# Unity generated files (do not create manually)
+unity-ar/[Ll]ibrary/
+unity-ar/[Tt]emp/
+unity-ar/[Oo]bj/
+unity-ar/[Bb]uild/
+unity-ar/[Bb]uilds/
+unity-ar/[Ll]ogs/
+unity-ar/[Uu]ser[Ss]ettings/
+unity-ar/*.csproj
+unity-ar/*.sln
+unity-ar/*.user
+unity-ar/*.pidb
+unity-ar/*.booproj
+unity-ar/*.svd
+unity-ar/*.pdb
+unity-ar/*.mdb
+unity-ar/*.opendb
+unity-ar/*.VC.db

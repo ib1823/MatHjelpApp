@@ -1,0 +1,15 @@
+{
+  "name": "mat-hjelp",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/mobile",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev:mobile": "npm run start --workspace apps/mobile",
+    "dev:api": "npm run dev --workspace apps/api",
+    "build:api": "npm run build --workspace apps/api",
+    "typecheck": "npm run typecheck --workspace apps/mobile && npm run typecheck --workspace apps/api"
+  }
+}
